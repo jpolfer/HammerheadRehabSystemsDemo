@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-DMT20IU</Machine>
+    <WindowsUser>jpolfer</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>76fa2950-5b31-11e6-9723-c7957dc62ade</PackageIdentityName>
+    <PackageIdentityPublisher>CN=%24username%24</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\build\phone\debug\x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\icon.png">
+      <PackagePath>www\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\icons\114x114.png">
+      <PackagePath>www\icons\114x114.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\icons\173x173.png">
+      <PackagePath>www\icons\173x173.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\icons\57x57.png">
+      <PackagePath>www\icons\57x57.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\icons\62x62.png">
+      <PackagePath>www\icons\62x62.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\icons\72x72.png">
+      <PackagePath>www\icons\72x72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\a2000_canister.png">
+      <PackagePath>www\img\a2000_canister.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\arrow.png">
+      <PackagePath>www\img\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\b2000_jug.png">
+      <PackagePath>www\img\b2000_jug.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\back.png">
+      <PackagePath>www\img\back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\hhm_logo.png">
+      <PackagePath>www\img\hhm_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\HH_A2000.png">
+      <PackagePath>www\img\HH_A2000.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\HH_B2000.png">
+      <PackagePath>www\img\HH_B2000.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\hydraliner_header_app.png">
+      <PackagePath>www\img\hydraliner_header_app.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\hydraonly.png">
+      <PackagePath>www\img\hydraonly.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\hydraonly1.png">
+      <PackagePath>www\img\hydraonly1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\img\liner.png">
+      <PackagePath>www\img\liner.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash.png">
+      <PackagePath>www\splash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash\1024x768.png">
+      <PackagePath>www\splash\1024x768.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash\320x480.png">
+      <PackagePath>www\splash\320x480.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash\640x1136.png">
+      <PackagePath>www\splash\640x1136.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash\640x960.png">
+      <PackagePath>www\splash\640x960.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash\768x1024.png">
+      <PackagePath>www\splash\768x1024.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\about.html">
+      <PackagePath>www\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\calculator.html">
+      <PackagePath>www\calculator.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\curetimes.html">
+      <PackagePath>www\curetimes.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hhbrawoliner.html">
+      <PackagePath>www\hhbrawoliner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hhflexliner.html">
+      <PackagePath>www\hhflexliner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hhflexlinersteam.html">
+      <PackagePath>www\hhflexlinersteam.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hhliner.html">
+      <PackagePath>www\hhliner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hhlinersteam.html">
+      <PackagePath>www\hhlinersteam.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hhscrimliner.html">
+      <PackagePath>www\hhscrimliner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hlepoxyhardener.html">
+      <PackagePath>www\hlepoxyhardener.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hlepoxyhardenerext.html">
+      <PackagePath>www\hlepoxyhardenerext.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\hlepoxyresin.html">
+      <PackagePath>www\hlepoxyresin.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\linerdetailsmenu.html">
+      <PackagePath>www\linerdetailsmenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\resindetailsmenu.html">
+      <PackagePath>www\resindetailsmenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\config.xml">
+      <PackagePath>www\config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\js\android.js">
+      <PackagePath>www\js\android.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\js\calculator.js">
+      <PackagePath>www\js\calculator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\js\curetime.js">
+      <PackagePath>www\js\curetime.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\about.css">
+      <PackagePath>www\css\about.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\calculator.css">
+      <PackagePath>www\css\calculator.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\curetimes.css">
+      <PackagePath>www\css\curetimes.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\global.css">
+      <PackagePath>www\css\global.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\css\resin.css">
+      <PackagePath>www\css\resin.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\www\splash\480x800.jpg">
+      <PackagePath>www\splash\480x800.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Subversion\ETC_Hydraliner\trunk\HydralinerApp\platforms\windows\build\phone\debug\x86\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿HTML, BODY {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.headerimage {
+    padding-top:3px; padding-left:3px; width:71px; background-image:url(../img/back.png);
+}

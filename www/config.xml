@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0"
+          xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps"
+          id = "com.hammerheadmole.rehabilitation"
+          version="1.0.0"
+          xmlns:gap="http://www.w3.org/ns/widgets"
+          defaultlocale="en-US">
+
+  <name>Hammerhead Rehabilitation Systems</name>
+
+  <description>The HydraLiner app from HammerHead Trenchless Equipment enables those who do CIPP lateral pipe repair to calculate the quantity of resin and hardener needed and the amount of time to cure the pipe on the jobsite.</description>
+
+  <author href="http://www.hammerheadtrenchless.com" email="appsupport@hammerheadmole.com">Earth Tool Company</author>
+  <preference name="phonegap-version" value="3.5.0" />
+  <preference name="orientation" value="portrait" />
+  <preference name="show-splash-screen-spinner" value="false" />
+  <preference name="splash-screen-duration" value="2000" />
+  <preference name="fullscreen" value="true" />
+
+  <icon src="icon.png" />
+  <icon src="icons/57x57.png" gap:platform="ios" width="57" height="57" />
+  <icon src="icons/72x72.png" gap:platform="ios" width="72" height="72" />
+  <icon src="icons/114x114.png" gap:platform="ios" width="114" height="114" />
+  <icon src="icons/62x62.png" gap:platform="winphone" />
+  <icon src="icons/173x173.png" gap:platform="winphone" gap:role="background" />
+
+  <gap:splash src="splash.png" />
+  <gap:splash src="splash/320x480.png" width="320" height="480" />
+  <gap:splash src="splash/640x960.png" width="640" height="960" />
+  <gap:splash src="splash/640x1136.png" width="640" height="1136" />
+  <gap:splash src="splash/1024x768.png" width="1024" height="768" />
+  <gap:splash src="splash/768x1024.png" width="768" height="1024" />
+  <gap:splash src="splash/480x800.jpg" gap:platform="winphone" />
+
+  <preference name="SplashScreenDelay" value="2000"></preference>
+  <plugin name="cordova-plugin-inappbrowser" version="1.4.0" />
+  <plugin name="cordova-plugin-splashscreen" version="3.2.2" />
+
+  <!-- If you do not want any permissions to be added to your app, add the
+    following tag to your config.xml; you will still have the INTERNET
+    permission on your app, which PhoneGap requires. -->
+  <preference name="permissions" value="none"/>
+
+  <access />
+</widget>

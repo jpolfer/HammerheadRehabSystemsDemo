@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html class="menuPage">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" id="viewport" content="width=470px, maximum-scale=10.0, minimum-scale=0.1, user-scalable=no;" />
+        <link rel="stylesheet" type="text/css" href="css/global.css" />
+        <link rel="stylesheet" type="text/css" href="css/calculator.css" />
+        <title>Home Page</title>
+    </head>
+    <body>
+        <table class="backBar"><tr>
+            <td class="rightButton"><div class="backButton"><a href="javascript:window.history.back();"><img src="img/back.png" border="0" alt="Back" /></a></div></td>
+            <td class="titleText">Epoxy Calculator</td>
+            <td class="leftButton"></td>
+        </tr></table>
+        <div style="padding: 30px 15px 15px 15px; color:#474747;" id="header">
+            <table class="inputOption">
+                <tr>
+                    <td class="inputText">Liner type:</td>
+                    <td>
+                        <select id="linerType" onchange="changeLinerTyper();">
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table class="inputOption">
+                <tr>
+                    <td class="inputText">Pipe diameter:</td>
+                    <td>
+                        <select id="pipeSize" onchange="calculate();">
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table class="inputOption">
+                <tr>
+                    <td class="inputText">Total feet of repair:</td>
+                    <td><input type="number" id="totalFeet" onkeypress="if (validate(event)) calculate();" style="width:4em;" maxlength="4" onfocus="calculate(0);" onblur="calculate();" /></td>
+                </tr>
+            </table>
+            <table class="inputOption">
+                <tr>
+                    <td class="inputText">Resin:</td>
+                    <td>
+                        <select id="resinType" onchange="changeResin(true);">
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table class="inputOption">
+                <tr>
+                    <td class="inputText">Hardener:</td>
+                    <td>
+                        <select id="hardenerType" onchange="changeHardener(true);">
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="answerHolder" style="background-color:Black; background-position:center bottom; background-image: url(img/hydraonly1.png); color:White;
+            background-repeat:no-repeat; width:100%; min-height:431px; position:absolute; bottom:0px; " id="answers">
+            <div style="padding: 15px 15px 0px 15px; font-size:28px;">
+                <table cellpadding="0" cellpadding="0" class="answerTable">
+                    <tr>
+                        <td class="lbl"><span id="resinTypeText"></span></td>
+                        <td><div id="a2000">0.00 lbs<br />0 lbs, 0 oz</div></td>
+                    </tr>
+                    <tr>
+                        <td class="lbl"><span id="hardenerTypeText"></span></td>
+                        <td><div id="b2000">0.00 lbs<br />0 lbs, 0 oz</div></td>
+                    </tr>
+                    <tr>
+                        <td class="lbl">Total Weight Mixed</td>
+                        <td><div id="totalWeight">0.00 lbs<br />0 lbs, 0 oz</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- <script type="text/javascript" src="phonegap.js"></script> -->
+        <script type="text/javascript" src="js/android.js"></script>
+        <script type="text/javascript" src="js/calculator.js"></script>
+    </body>
+</html>

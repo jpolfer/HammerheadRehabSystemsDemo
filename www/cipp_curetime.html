@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html class="menuPage">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" id="viewport" content="width=470px, maximum-scale=10.0, minimum-scale=0.1, user-scalable=no;" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/curetimes.css" />
+    <title>CIPP Cure Time</title>
+</head>
+<body id="pageContainer">
+    <div style="text-align:center;">
+        <img src="img/header.jpg" style="width:100%" alt="" />
+    </div>
+    <div class="innerContainer curetimeContainer" id="pElement">
+            <div style="padding-bottom:18px;" class="inputOption">
+                Hardener: <select id="typeHard" onchange="changeHardener();">
+                    <option value="stand">HL Epoxy: Standard</option>
+                    <option value="wint">HL Epoxy: Winter</option>
+                    <option value="sum">HL Epoxy: Summer</option>
+                    <option value="ext">HL Epoxy: EXT</option>
+                </select>
+            </div>
+            <div id="stand" class="typeData" style="display:block;">
+                <div class="cureWrapper">
+                    <div class="headerText">
+                        HYDRALINER&trade; EPOXY HARDENER<br />
+                        <i style="font-size:90%;">Standard Blend</i>
+                    </div>
+                    <div class="mainCureContent">
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Gel Time:</span> 30-35 minutes (150 grams)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 4 hours @ 77&deg;F (25&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 3 hours @ 130&deg;F (54.4&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 2.5 hours @ 158&deg;F (70&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 2 hours @ 176&deg;F (80&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 1 hour @ 194&deg;F (90&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">HDT<sup style="padding-left:0.3em;">&dagger;</sup>:</span> 190&deg;F (87.8&deg;C)</div>
+                    </div>
+                    <div class="subCureContent">&dagger; Heat Deflection Temperature</div>
+                </div>
+            </div>
+            <div id="wint" class="typeData" style="display:none;">
+                <div class="cureWrapper">
+                    <div class="headerText">
+                        HYDRALINER&trade; EPOXY HARDENER<br />
+                        <i style="font-size:90%;">Winter Blend</i>
+                    </div>
+                    <div class="mainCureContent">
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Gel Time:</span> 12-15 minutes (150 grams)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 2 hours @ 77&deg;F (25&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 2 hours @ 130&deg;F (54.4&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 1.5 hours @ 158&deg;F (70&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 1 hour @ 176&deg;F (80&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 45 mins @ 194&deg;F (90&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">HDT<sup style="padding-left:0.3em;">&dagger;</sup>:</span> 190&deg;F (87.8&deg;C)</div>
+                    </div>
+                    <div class="subCureContent">&dagger; Heat Deflection Temperature</div>
+                </div>
+            </div>
+            <div id="sum" class="typeData" style="display:block;">
+                <div class="cureWrapper">
+                    <div class="headerText">
+                        HYDRALINER&trade; EPOXY HARDENER<br />
+                        <i style="font-size:90%;">Summer Blend</i>
+                    </div>
+                    <div class="mainCureContent">
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Gel Time:</span> 50-60 minutes (150 grams)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 5 hours @ 77&deg;F (25&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 4 hours @ 130&deg;F (54.4&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 3 hours @ 158&deg;F (70&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 2.5 hours @ 176&deg;F (80&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Cure Time:</span> 1.5 hours @ 194&deg;F (90&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">HDT<sup style="padding-left:0.3em;">&dagger;</sup>:</span> 240&deg;F (115.6&deg;C)</div>
+                    </div>
+                    <div class="subCureContent">&dagger; Heat Deflection Temperature</div>
+                </div>
+            </div>
+            <div id="ext" class="typeData" style="display:none;">
+                <div class="cureWrapper">
+                    <div class="headerText">
+                        HYDRALINER&trade; EPOXY HARDENER<br />
+                        <i style="font-size:90%;">Extended Blend</i>
+                    </div>
+                    <div class="mainCureContent">
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Pot Life:</span> 3 hours (150g @ 77&deg;F [25&deg;C])</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 3-4 hours @ 130&deg;F (54.4&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 2-3 hours @ 158&deg;F (70&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 1.5-2 hours @ 176&deg;F (80&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Set Time:</span> 1-1.5 hours @ 194&deg;F (90&deg;C)</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">HDT<sup style="padding-left:0.3em;">&dagger;</sup>:</span> 140&deg;F (60&deg;C) for any standard set time/cure time combination</div>
+                        <div style="padding-bottom:0.2em;"><span style="font-weight:bold;">Max HDT<sup style="padding-left:0.3em;">&dagger;</sup>:</span> 194&deg;F (90&deg;C) for cure schedule: 2 hours @ 95&deg;F (35&deg;C) + 4 hours @ 149&deg;F (65&deg;C) + 2 hours @ 185&deg;F (85&deg;C)</div>
+                    </div>
+                    <div class="subCureContent">&dagger; Heat Deflection Temperature</div>
+                </div>
+            </div>
+    </div>
+    <footer class="homeBackFooter innerContainer">
+        <a href="index.html"><img src="img/home_button_replace.jpg" class="graphicalButtonIcon homeButton" /></a>
+        <span class="graphicalButtonIcon spacerButton"></span>
+        <a href="cipp_home.html"><img src="img/back_button_replace.jpg" class="graphicalButtonIcon backButton" /></a>
+    </footer>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/android.js"></script>
+    <script type="text/javascript" src="js/curetime.js"></script>
+</body>
+</html>

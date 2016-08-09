@@ -1,0 +1,43 @@
+﻿.headerText { padding-bottom:20px; }
+.chartHeader TD { padding-bottom:5px; }
+.firstRow TD { padding-top:5px; }
+.inputOption, .inputOption SELECT, .inputOption INPUT { font-size:18px; }
+.typeData {
+    background-color: #4d4d4f;
+    border-radius: 8px;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    color: #faf7f7;
+    height: 360px;
+    overflow-y: scroll;
+}
+
+.mainCureContent {
+    font-size: 18px;
+}
+
+.subCureContent {
+    font-size: 12px;
+    padding-top: 1.0em;
+}
+
+div.cureWrapper {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.headerText { 
+    font-size:34px; font-weight:bold; font-family:Arial; 
+}
+
+.bottomBorderColor { 
+    border-bottom: 2px solid #faf7f7; 
+}
+
+.typeText { font-size: 34px; padding-bottom:0.4em; }
+.headerText { font-size: 24px; padding-bottom: 10px; }
+.detailText { padding-top:8px; padding-bottom:8px; font-size:21px; }
+.detailHead { font-weight: bold; }
+.goodFaith { font-size:15px; }
+.FILLIN { color:Red; font-weight:bold; }
+.inHead { font-weight: bold; }
+.inText { padding-left: 1.0em; }
